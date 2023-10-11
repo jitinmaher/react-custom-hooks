@@ -1,0 +1,38 @@
+{
+  "name": "react-custom-hooks",
+  "version": "1.0.0",
+  "description": "Repository for capturing set of custom hooks for react",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint ./hooks index.js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertDelario/react-custom-hooks.git"
+  },
+  "keywords": [
+    "custom-hook"
+  ],
+  "author": "Robert Delario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertDelario/react-custom-hooks/issues"
+  },
+  "homepage": "https://github.com/RobertDelario/react-custom-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.x"
+  },
+  "devDependencies": {
+    "react": "^16.x",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "^2.1.2"
+  }
+}
